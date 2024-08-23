@@ -1,0 +1,16 @@
+TYPE=VIEW
+query=select `exam`.`student1`.`name` AS `name` from `exam`.`student1`
+md5=9c23c60a77ea2aaa035c169ad8d7e2d0
+updatable=1
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=0001713935055746707
+create-version=2
+source=select name from student1
+client_cs_name=utf8mb4
+connection_cl_name=utf8mb4_general_ci
+view_body_utf8=select `exam`.`student1`.`name` AS `name` from `exam`.`student1`
+mariadb-version=100427
